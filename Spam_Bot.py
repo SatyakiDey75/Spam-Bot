@@ -6,6 +6,7 @@ limit=int(input("Enter limit: "))
 message=input("Enter message or press 1 to try out my default message :): ")
 i=0
 time.sleep(5)
+
 if message=="1":
     f=open("beemoviescript.txt",'r')
     for j in f:
